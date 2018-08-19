@@ -1,0 +1,10 @@
+prefix=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10
+libdir=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Interfaces
+
+Name: IPOPT
+Description: Interior Point Optimizer
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.10
+Libs: ${libdir}/libipopt.la -framework Accelerate -framework Accelerate -lm  -ldl
+Cflags: -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Interfaces -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Common -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/LinAlg -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Algorithm -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/contrib/CGPenalty -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/contrib/LinearSolverLoader -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Common
+Requires: coinmumps 

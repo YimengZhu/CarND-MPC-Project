@@ -1,0 +1,9 @@
+prefix=/usr/local
+libdir=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/ThirdParty/ASL
+
+Name: ASL
+Description: AMPL Solver Library
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.4.0
+Libs: ${libdir}/libcoinasl.la -lm -ldl 
+Cflags: -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/ThirdParty/ASL -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/ThirdParty/ASL/solvers

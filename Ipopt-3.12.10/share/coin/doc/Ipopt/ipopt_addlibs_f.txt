@@ -1,0 +1,1 @@
+-n  -n  -n  -n  -n  -n  -n  -L/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/lib -L/usr/local/lib -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../.. -lipopt -framework Accelerate -ldl -lcoinmumps /usr/local/lib/libcoinblas.a -lm        -lc++

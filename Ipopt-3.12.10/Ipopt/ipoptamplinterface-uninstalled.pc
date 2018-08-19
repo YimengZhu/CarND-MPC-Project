@@ -1,0 +1,10 @@
+prefix=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10
+libdir=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Apps/AmplSolver
+
+Name: IPOPT
+Description: Ampl Interface TNLP to Ipopt
+URL: https://projects.coin-or.org/Ipopt
+Version: 3.12.10
+Libs: ${libdir}/libipoptamplinterface.la 
+Cflags: -I/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10/Ipopt/src/Apps/AmplSolver
+Requires: ipopt coinasl 

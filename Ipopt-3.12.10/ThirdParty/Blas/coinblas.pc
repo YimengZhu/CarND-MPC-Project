@@ -1,0 +1,10 @@
+prefix=/Users/yimengzhu/Desktop/carnd/CarND-MPC-Project/Ipopt-3.12.10
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: Blas
+Description: Basic linear algebra package
+URL: https://projects.coin-or.org/BuildTools
+Version: 1.4.6
+Libs: -L${libdir} -lcoinblas  -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0 -L/usr/local/Cellar/gcc/8.2.0/lib/gcc/8/gcc/x86_64-apple-darwin17.7.0/8.2.0/../../.. -lgfortran -lSystem -lquadmath -lm
+Cflags:
